@@ -1354,3 +1354,63 @@ strong {
 }
 
 
+/* Hire Me Section Styles */
+.hire-me-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.hire-me {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 55px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hire-me-button {
+    position: absolute;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    z-index: 2;
+}
+
+#circle-text {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: -185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+#circle-text span {
+    position: absolute;
+    transform-origin: 0 175px; /* Adjust based on #circle-text width/2 */
+    font-size: 1em;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    pointer-events: none; /* Prevent interaction with the rotating text */
+}
+
+.coding-profile-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
