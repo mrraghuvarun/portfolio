@@ -1291,7 +1291,7 @@ strong {
 .card.project-card {
     width: 100%;
     max-width: 400px; /* Adjust to desired card width */
-    height: 750px; /* Adjust to desired card height */
+    height: 800px; /* Adjust to desired card height */
     display: flex;
     flex-direction: column;
 }
